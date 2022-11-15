@@ -1,0 +1,56 @@
+html { 
+	background-color:palegoldenrod;
+}
+
+body {
+	display: flex;
+	height: 95%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+input {
+	border: 3px solid #acaabf;
+	padding: 12px;
+	margin-top: 12px;
+	width: 95%;
+	text-align: center;
+	border-radius: 3px;
+	font-family: 'Economica', sans-serif;
+	font-size: 16px;
+	color:black;
+}
+
+input:focus { 
+	border: 3px solid #4d4c54;
+	text-align: center;
+}
+
+label {
+	font-size: 36px;
+   	color:black;
+	font-family: Economica, sans-serif;
+}
+
+span {
+	font-size: 28px;
+	margin: 12px;
+	color: #4d4c54;
+	font-family: Economica, sans-serif;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color:lightblue;
+	width: 30%;
+	height: 300px;
+	border: 0px solid #4d4c54;
+	border-radius: 9px;
+	margin: 12px;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+}
+
